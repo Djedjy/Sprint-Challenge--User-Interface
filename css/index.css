@@ -75,6 +75,10 @@ p {
     font-weight: bold;
 }
 
+.HeaderNavigation {
+    margin-top: 2%;
+}
+
 .HeaderImage {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -314,6 +318,7 @@ footer nav a {
 }
 
 .MiddleAboutContent .image-content {
+    margin-top: 40px;
     margin-bottom: 15px;
 }
 
@@ -324,4 +329,8 @@ footer nav a {
     margin-top: 10px;
     font-family: "Titillium Web"
     vertical-align: text-bottom; 
+}
+
+.BottomAboutSection {
+    margin: 40px 5px 40px;
 }
