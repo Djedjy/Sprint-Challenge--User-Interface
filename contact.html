@@ -5,26 +5,53 @@
         <meta charset="utf-8">
 
         <title>Sprint Challenge - Contact</title>
-        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
-        <div class="contact-section">
+        <div class="container">
+            <header>
+                <div class="HeaderNavigation">
+                    <nav>
+                        <img class="logo" src="img/lambda-black.png" alt="Lamba Title!">
+    
+                        <a href="index.html">Home</a> 
+                        <a href="about.html">About</a> 
+                        <a href="products">Products</a> 
+                        <a href="blog">Blog</a> 
+                        <a href="contact.html">Contact</a> 
+                    </nav>
+                </div>
+            </header>
 
-            <h1>Contact Us</h1>
+            <div class="contact-section">
 
-            <form class="contact-form" action="index.html" method="post"> 
-                <input type="text" class="contact-form-text" placeholder="Your name"> 
-                <input type="email" class="contact-form-text" placeholder="Your email"> 
-                <input type="text" class="contact-form-text" placeholder="Your phone">
-                
-                
+                <h1>Contact Us</h1>
 
-            </form>
+                <div class="border"></div>
+
+                <form class="contact-form" action="index.html" method="post"> 
+                    <input type="text" class="contact-form-text" placeholder="Your name"> 
+                    <input type="email" class="contact-form-text" placeholder="Your email"> 
+                    <input type="text" class="contact-form-text" placeholder="Your phone">
+                    <textarea class="contact-form-text" placeholder="Your message"></textarea>
+                    <input type="submit" class="contact-form-btn" value="Send">
+                </form>
+
+            </div>
+
+            <footer>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Products</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </footer>
 
         </div>
-
-
     </body>
 </html>
