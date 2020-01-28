@@ -1,0 +1,17 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+-Semantic HTML is used to provide meaning to a page, like a skeleton to a body. Thanks to that, you can better structure and read your page which, for example, allows another person that starts working for the first time on the same project to understand and better read the coding on the page as well.
+
+Name two big differences between display: block; and display: inline;.
+
+-First difference is: On a display: block, the box elements are displayed vertically, meaning one on top of the other on different lines. While on display: inline, the box elements are displayed horizontally, meaning one after the other on the same line.  
+-Second difference is: With display: block, you retain the width and the height of the box element, while with display: inline, you do not.
+
+What are the 4 areas of the box model?
+The 4 areas of the box model are: margin, padding, border, and content. 
+
+While using flexbox, what axis does the following property work on: align-items: center?
+-The property align-items: center works on the cross axis.
+
+Explain why git is valuable to a team of developers
+-Normally when many people are working on the same project, the difficulty becomes how to properly and effectively save and merge all of the contents in a way that flows and makes sense. The higher the number of people working on that project, the more challenging that becomes. However with git, that no longer becomes an issue: each person can work on their own branch of the project, make changes and commit to them and afterwards, each person can merge their work to the main branch and everything will be recorder and flow well. Another advantage with git, is the ability to go back in time and see versions of a project that were created and modified in the past without having to save each version under a different name every time.
